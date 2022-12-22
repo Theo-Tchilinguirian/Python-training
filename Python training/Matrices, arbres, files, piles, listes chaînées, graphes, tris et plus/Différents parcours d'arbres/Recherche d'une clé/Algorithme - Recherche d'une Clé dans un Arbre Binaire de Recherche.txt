@@ -1,0 +1,34 @@
+
+recherche(arbre, valeur):
+    Si not arbre.is_empty():
+        noeud <- arbre
+        Tant que la valeur est trouvée ou non:
+            Si noeud.valeur est strictement inférieur à valeur:
+                Si noeud.droite is not None:
+                    noeud <- noeud.droite
+                FinSi
+                Sinon:
+                    afficher "valeur non trouvée dans l'arbre"
+                    renvoyer False
+                FinSinon
+            FinSi
+
+            Sinon si noeud.valeur est strictement supérieur à valeur:
+                Si noeud.gauche is not None:
+                    noeud <- noeud.gauche
+                FinSi
+                Sinon:
+                    afficher "valeur non trouvée dans l'arbre"
+                    renvoyer False
+                FinSinon
+            FinSinon
+
+            Sinon:
+                afficher "valeur trouvée dans l'arbre"
+                renvoyer True
+            FinSinon
+    Finsi
+
+    Sinon:
+        arbre.valeur <- valeur
+    FinSinon
