@@ -14,6 +14,9 @@ while not tr:
 
     print("Ordi: Je vais donc chercher entre", d, "et", f)
     nb = randint(d, f)  # Nombre choisi par l'ordinateur (votre opposant, il doit trouver votre nombre)
+    # L'ordinateur choisit nb au hasard.
+    # La différence avec la v1 étant qu'ici c'est d et f (début et fin) qui sont modifiés en fonction
+    # du résultat obtenu, et pas directement nb.
 
     print("Tour numéro", cpt)
     cpt += 1
@@ -32,6 +35,3 @@ while not tr:
         print("Vous: Trop grand!    [--> {}]".format(x))
         f = nb - 1
 
-
-# Cet algo a une complexité théorique d'environ log2(n) --> Si on a un intervalle entre 0 et 1024 (2^10) on a 10 tours environs pour finir l'algo.
-# C'est la meilleure complexité possible réalisable à ce jour.
