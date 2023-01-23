@@ -13,7 +13,7 @@ tr = False  # 'Trouvé'
 while not tr:
 
     print("Ordi: Je vais donc chercher entre", d, "et", f)
-    nb = randint(d, f)  # Nombre choisi par l'ordinateur (votre opposanta, il doit trouver votre nombre)
+    nb = randint(d, f)  # Nombre choisi par l'ordinateur (votre opposant, il doit trouver votre nombre)
 
     print("Tour numéro", cpt)
     cpt += 1
