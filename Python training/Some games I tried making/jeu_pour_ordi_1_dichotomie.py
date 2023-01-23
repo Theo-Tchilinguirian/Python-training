@@ -12,7 +12,8 @@ tr = False  # 'Trouvé'
 while not tr and d <= f:
 
     print("Ordi: Je vais donc chercher le nombre entre", d, "et", f)
-    nb = (d + f)//2
+    nb = (d + f)//2  # Nombre choisi par l'ordinateur (votre opposanta, il doit trouver votre nombre)
+    # L'ordinateur procède ici par dichotomie pour retrouver x.
 
     print("- - - Tour numéro", cpt, "- - -")
     cpt += 1
