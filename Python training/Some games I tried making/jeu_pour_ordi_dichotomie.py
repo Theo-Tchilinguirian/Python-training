@@ -4,6 +4,7 @@
 
 cpt = 1
 d = 0
+print("Dans ce jeu, vous devez choisir un nombre que l'ordinateur doit deviner en fonction de vos indications.")
 f = int(input('Limite max ?: '))
 x = int(input("Le nombre, compris dans l'intervalle: "))
 
@@ -19,7 +20,6 @@ while not tr and d <= f:
     if nb == x:
         print("Ordi:", nb, "?")
         print("Ordi: J'ai trouvé! Le nombre est", x, "!!")
-        print("Vous: :] *stares blankly while applauding slowly*. Whispers discretly: 'I will get u next time... AKINATOR !!'")
         tr = True
 
     elif nb < x:
@@ -34,4 +34,4 @@ while not tr and d <= f:
 
 
 # Cet algo a une complexité théorique d'environ log2(n) --> Si on a un intervalle entre 0 et 1024 (2^10) on a 10 tours environs pour finir l'algo.
-# C'est la meilleur complexité possible réalisable à ce jour.
+# C'est la meilleure complexité possible réalisable à ce jour.
