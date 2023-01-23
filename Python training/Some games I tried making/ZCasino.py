@@ -1,3 +1,5 @@
+# TP cours OpenClassrooms
+
 import os
 from math import ceil
 from random import randrange     #on importe les modules nécéssaires
