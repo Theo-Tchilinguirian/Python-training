@@ -1,7 +1,16 @@
+"""
+Docstring janvier 2023
+Code non commenté, qui date un peu. Le niveau de compréhensibilité du code est si faible que
+c'est sûrement un chapitre entier du cahier des charges. En tout cas c'est un bon entraînement
+technique sur les listes, et sur la manipulation de valeurs (voire d'objets) dans une matrice.
+C'est en essayant de comprendre du vieux code qu'on apprend par la manière forte qu'il faut
+bien le commenter.
+"""
+
 from random import randint
 
 n = 4
-plt = [[(j*n+i)+1 for i in range(n)] for j in range(n)]
+plt = [[(j*n+i)+1 for i in range(n)] for j in range(n)]  # python list comprehension
 case_vide_pos = [0,0]
 print(plt)
 for i in range(n):
@@ -80,7 +89,7 @@ while not end:
     else:
         print("vous ne pouvez pas aller dans cette direction......")
 
-    cpt = 0
+    cpt = 0  # compteur
     while cpt < n*n-1 and plt[cpt//n][cpt%n] < plt[(cpt+1)//n][(cpt+1)%n]:
         cpt += 1
     print(cpt)
@@ -103,3 +112,4 @@ while not end:
     for j in range(n):
         print("---",end="")
     print()
+
