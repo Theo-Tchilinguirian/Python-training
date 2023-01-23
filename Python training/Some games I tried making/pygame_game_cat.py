@@ -8,7 +8,7 @@ black = 0, 0, 0
 
 screen = pygame.display.set_mode(size)
 
-ball = pygame.image.load("C:/Users/PC1/Desktop/Nouveau dossier (2)/FIFE/Yikes.png")
+ball = pygame.image.load("pygame_game_funny_cat_photo.png")
 ballrect = ball.get_rect()
 
 while 1:
