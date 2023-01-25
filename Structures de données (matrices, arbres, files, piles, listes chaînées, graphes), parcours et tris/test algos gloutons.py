@@ -1,6 +1,6 @@
 # algos gloutons nsi
 
-P = [0.05, 0.1, 0.2, 0.5, 1, 2]
+P = [0.05, 0.1, 0.2, 0.5, 1, 2]  # Pièces d'euros et de centimes. Algorithme glouton pour une machine qui rend la monnaie
 
 while True:
     prix = float(input("prix: "))
