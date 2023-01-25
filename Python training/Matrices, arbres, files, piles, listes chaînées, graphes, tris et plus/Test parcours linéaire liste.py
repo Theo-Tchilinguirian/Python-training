@@ -6,12 +6,12 @@ if __name__ == '__main__':
     x = 10000000
     a = time()
 
-    longueur = longueur(L)
-    i = 1
-    TantQue i <= longueur:
-        Si x = L(i):
-            Renvoie(x est dans L)
-        i <- i + 1
+    #longueur = longueur(L)
+    #i <- 1
+    #TantQue i <= longueur:
+    #    Si x = L(i):
+    #        Renvoie(x est dans L)
+    #    i <- i + 1
 
     x = 10000000
     a = time()
