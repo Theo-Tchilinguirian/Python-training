@@ -17,7 +17,7 @@ class Player(pygame.sprite.Sprite):  # hérite de la superclasse Sprite; car le 
 
 # génération de la fenêtre du jeu :
 
-pygame.display.set_caption("Le Jeu !!!!!!!!!!!!!!!!!!!!!!!!!!!")
+pygame.display.set_caption("Fenêtre du jeu")
 screen = pygame.display.set_mode((1080, 720))  # On le récupère: renvoie une surface (ctrl + clic sur la méthode)
 
 # Importer et charger l'arrière plan :
