@@ -1,0 +1,6 @@
+a = int(input("Nombre entre 33 et 126: "))
+c = input("Caractère: ")
+car = chr(a)
+cod = ord(c)
+print("le caractère dont le code ASCII est", a, "est:", car)
+print("le code ASCII du caractère", c, "est:", cod)
