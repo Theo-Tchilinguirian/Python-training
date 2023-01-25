@@ -203,6 +203,7 @@ def lister_Arêtes(listadj):
 
 
 
+""" Révisions inopinées de SQL
 create database [nom];
 Schéma relationel : [nom relation]([attributs] : [domaines])  # souligner clé primaire, # devant clés étrangères
 create table [nom]([attributs] [domaines]);
@@ -222,3 +223,4 @@ la condition permet de joindre que les tuples qui respectent cette condition
 update [table] set [attributs] where [condition];
 delete from [table] where [condition]
 delete supprime les tuples qui respectent la condition
+"""
